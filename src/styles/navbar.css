@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: black;
+  color: white;
+  width: full;
+  margin: 0 auto;
+}
+
+.nav-links a {
+  margin-right: 20px;
+}
+
+.navbar h1 {
+  font-size: 1.2rem;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.navbar .search-box {
+  margin: 0 10px;
+  width: 300px;
+}

@@ -1,0 +1,60 @@
+.breaking-news {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.topone-news {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.topone-news-content {
+  text-align: center;
+}
+
+.news-source {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.news-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.news-description {
+  font-size: 16px;
+  color: #555;
+}
+
+.read-more {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.top-news {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.top-news-card {
+  flex: 1 1 calc(33.333% - 10px);
+  background-color: #eaeaea;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  min-width: 250px;
+}
+
+.news-category {
+  font-size: 14px;
+  color: #888;
+}
